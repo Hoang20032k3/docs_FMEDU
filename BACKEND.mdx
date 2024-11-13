@@ -1,0 +1,74 @@
+---
+description: "Description of your new file."
+title: "TÀI LIỆU FRONTEND"
+---
+
+## **1. Giới thiệu**
+
+Frontend của dự án này sử dụng **React.js** kết hợp với **Redux** để quản lý trạng thái ứng dụng và **Axios** để giao tiếp với backend. Dự án này cung cấp một giao diện thân thiện để người dùng có thể quản lý và theo dõi các thiết bị được mượn, các đơn mượn, và trạng thái của các thiết bị.
+
+***
+
+description: "Description of your new file."
+title: "TÀI LIỆU FRONTEND"
+--------------------------
+
+## **2. Yêu cầu hệ thống**
+
+Để chạy được frontend của dự án, bạn cần cài đặt các phần mềm sau:
+
+* **Node.js** phiên bản 14.0 trở lên.
+
+* **npm** (Node Package Manager), thường đi kèm với Node.js.
+
+* **Trình duyệt web**: Chúng tôi khuyến khích sử dụng Chrome hoặc Firefox để trải nghiệm tốt nhất.
+
+## **3. Cài đặt Frontend**
+
+### **3.1. Clone dự án**
+
+Để cài đặt frontend, trước tiên bạn cần clone dự án từ repository trên GitHub:
+
+git clone [https://github.com/your-repo/your-project.git](https://github.com/your-repo/your-project.git)
+
+### **3.2. Cài đặt các phụ thuộc**
+
+Chuyển vào thư mục frontend và cài đặt tất cả các phụ thuộc bằng lệnh:
+
+cd frontend
+
+npm install
+
+Lệnh này sẽ tự động tải về các thư viện cần thiết cho frontend từ file `package.json`.
+
+### **3.3. Chạy ứng dụng**
+
+Sau khi đã cài đặt các thư viện cần thiết, bạn có thể chạy ứng dụng bằng lệnh:
+
+npm start
+
+Ứng dụng sẽ khởi động và chạy trên `http://localhost:3000`. Truy cập địa chỉ này bằng trình duyệt để sử dụng ứng dụng.
+
+## **4. Cấu trúc thư mục Frontend**
+
+Frontend của dự án được tổ chức với cấu trúc thư mục sau:
+
+frontend/
+
+├── public/                # Chứa các file tĩnh, ví dụ: index.html, favicon.ico
+
+├── src/                   # Thư mục chứa toàn bộ mã nguồn chính
+
+│   ├── components/        # Các thành phần UI như button, form, v.v.
+
+│   ├── pages/             # Các trang chính của ứng dụng, ví dụ: Home, Dashboard
+
+│   ├── services/          # Các hàm gọi API và xử lý giao tiếp với backend
+
+│   ├── store/             # Quản lý Redux store và reducers
+
+│   ├── App.js             # Cấu trúc chính của ứng dụng
+
+│   └── index.js           # Điểm khởi đầu của ứng dụng React
+
+└── package.json           # Thông tin về dự án và các phụ thuộc
