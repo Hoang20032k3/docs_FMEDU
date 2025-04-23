@@ -52,9 +52,9 @@
     {
       "group": "Get Started",
       "pages": [
-        "gioi-thieu",                
+        "introduction",                
         "DNgmail",           
-        "development"
+        "guest-authentication"
       ]
     },
     {
