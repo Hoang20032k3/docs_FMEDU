@@ -52,7 +52,12 @@
     {
       "group": "Get Started",
       "pages": [
-        "introduction",                
+        "introduction"                
+      ]
+    },
+    {
+      "group": "Đăng nhập",
+      "pages": [               
         "DNgmail",           
         "guest-authentication"
       ]
