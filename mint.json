@@ -93,9 +93,15 @@
       ]
     },
     {
-      "group": "Văn bản công khai",
+      "group": "Công cụ tiện ích",
       "pages": [
-        "vanbancongkhai"                      
+        "trangdiemdanh"                      
+      ]
+    },
+    {
+      "group": "Quản lý yêu cầu của tôi",
+      "pages": [
+        "yeucaucuatoi"                      
       ]
     },
     {
