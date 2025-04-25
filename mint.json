@@ -63,16 +63,19 @@
       ]
     },
     {
-      "group": "Chức năng chính",
+      "group": "Thông tin định mức",
       "pages": [
         "ttdm-chuyen-nganh",            
-        "danhsachphong",               
-        "lich-su-dung",                 
-        "phong-ban",                   
-        "yeu-cau",                      
-        "nguoi-dung",                  
-        "bieu-mau",                    
-        "cong-cu"                       
+        "DANHMUCHOCPHAN",               
+        "danhsachbuoihoc",                 
+        "danhsachbaihoc",                   
+        "ttdm-hocphan"                    
+      ]
+    },
+    {
+      "group": "Danh sách phòng",
+      "pages": [
+        "danhsachphong"                      
       ]
     },
     {
