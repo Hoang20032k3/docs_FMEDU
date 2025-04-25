@@ -87,6 +87,18 @@
       ]
     },
     {
+      "group": "Văn bản công khai",
+      "pages": [
+        "vanbancongkhai"                      
+      ]
+    },
+    {
+      "group": "Văn bản công khai",
+      "pages": [
+        "vanbancongkhai"                      
+      ]
+    },
+    {
       "group": "API Documentation",
       "pages": [
         "api-reference/introduction"
