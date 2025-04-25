@@ -69,13 +69,21 @@
         "DANHMUCHOCPHAN",               
         "danhsachbuoihoc",                 
         "danhsachbaihoc",                   
-        "ttdm-hocphan"                    
+        "ttdm-hocphan",
+        "TTDMTCN",
+        "danhsachtaisan"
       ]
     },
     {
       "group": "Danh sách phòng",
       "pages": [
         "danhsachphong"                      
+      ]
+    },
+    {
+      "group": "Lịch sử dụng",
+      "pages": [
+        "lichsudung"                      
       ]
     },
     {
