@@ -1,0 +1,72 @@
+---
+title: "New file"
+description: "Description of your new file."
+---
+
+## 📘 Thông tin định mức học phần
+
+Trang này cho phép nhập, cập nhật và quản lý thông tin định mức chi tiết của từng học phần như số giờ giảng dạy, loại học phần, hình thức giảng dạy,...
+
+---
+
+## 📌 Các chức năng chính
+
+<CardGroup cols="2">
+
+<Card
+  title="1. Nhập thông tin định mức học phần"
+  icon="file-plus"
+>
+  Thực hiện nhập thông tin định mức cho một học phần theo các bước sau:
+
+  1. Nhấn nút **“Nhập định mức”**  
+  2. Hệ thống sẽ hiển thị biểu mẫu gồm nhiều trường thông tin  
+  3. Điền **đầy đủ các trường có dấu `*` (bắt buộc)**, các trường không có dấu `*` là tùy chọn  
+  4. Nhấn **“Lưu”** để ghi lại dữ liệu hoặc **“Hủy”** để thoát biểu mẫu mà không lưu
+</Card>
+
+</CardGroup>
+
+> 🛑 Nếu thiếu bất kỳ trường bắt buộc nào, hệ thống sẽ báo lỗi và không cho lưu.
+
+#### 📋 Bảng thông tin các trường trong biểu mẫu
+
+| **Tên trường**              | **Bắt buộc** | **Mô tả**                                                  |
+| --------------------------- | ------------ | ---------------------------------------------------------- |
+| Phân loại                   | ❌            | Nhóm phân loại thiết bị, vật tư hoặc sản phẩm liên quan    |
+| Hạng mục                    | ❌            | Tên máy móc, thiết bị, sản phẩm cụ thể                     |
+| Đơn vị tính \*              | ✅            | Đơn vị đo lường cho thiết bị/vật tư                        |
+| Định lượng để hoàn thành \* | ✅            | Số lượng cần thiết để hoàn thành 1 nội dung/học phần       |
+| Khấu hao (%) \*             | ✅            | Tỷ lệ phần trăm khấu hao áp dụng cho thiết bị              |
+| Số SV/1 nhóm \*             | ✅            | Số lượng sinh viên tối đa cho một nhóm sử dụng thiết bị đó |
+| Định mức/1 SV \*            | ✅            | Mức sử dụng thiết bị/vật tư cho mỗi sinh viên              |
+| Sản phẩm sau TN             | ❌            | Sản phẩm đầu ra sau thí nghiệm/thực hành (nếu có)          |
+
+
+<CardGroup cols="2">
+  <Card title="2. Cập nhật danh sách định mức" icon="upload-cloud">
+    - Nhấn **“Cập nhật danh sách”**
+    - Chọn một trong hai cách:
+      - **Dán dữ liệu** vào ô tương ứng
+      - **Upload file** từ máy tính
+    - Nhấn **“Xác nhận”** để import hoặc **“Đóng”** để hủy thao tác
+
+    > ⚠️ _Chức năng hiện chưa có mẫu file upload chính thức_
+  </Card>
+</CardGroup>
+
+> 📌 _`Chỉ khi nhập đầy đủ các trường có dấu *, hệ thống mới cho phép lưu định mức.`_
+
+---
+
+## 🎯 Mục tiêu sử dụng
+
+Trang này giúp:
+
+- Nhập thông tin định mức giảng dạy cho từng học phần
+- Cập nhật hàng loạt dữ liệu phục vụ phân tích, thống kê
+- Đảm bảo minh bạch khối lượng giảng dạy giữa các khoa, chuyên ngành
+
+---
+
+📍 _Vui lòng đảm bảo thông tin được nhập đầy đủ và chính xác trước khi lưu dữ liệu định mức học phần._
