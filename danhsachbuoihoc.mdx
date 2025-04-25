@@ -12,46 +12,65 @@ Trang này hỗ trợ người dùng quản lý chi tiết các buổi học c�
 ## 📌 Các chức năng chính
 
 <CardGroup cols="2">
-  <Card title="1. Thêm buổi học" icon="plus-circle">
-    - Nhấn nút **"Thêm buổi học"**
-    - Nhập đầy đủ các thông tin: _Ngày, Tiết, Nội dung, Giảng viên_
-    - Nhấn **"Lưu"** để lưu hoặc **"Hủy"** để bỏ thao tác
-  </Card>
-  <Card title="2. Cập nhật danh sách buổi học" icon="upload-cloud">
-    - Nhấn **"Dán dữ liệu"** nếu bạn đã sao chép từ file ngoài
-    - Hoặc nhấn **"Tải lên"** để chọn file từ máy
-    - Sau đó nhấn **"Xác nhận"** để import hoặc **"Đóng"** để hủy
-  </Card>
-  <Card title="3. Quản lý từng buổi học" icon="file-text">
-    Trong bảng danh sách buổi học, bạn có thể:
 
-    - **Xem chi tiết** nội dung
-    - **Chỉnh sửa** thông tin từng buổi
-    - **Xóa** buổi học nếu không còn sử dụng
-  </Card>
-  <Card title="4. Danh sách bài học của học phần" icon="list" href="/danhsachbaihoc">
-    Xem toàn bộ bài học đã tạo cho từng học phần
-  </Card>
+  <Card title="1. Danh sách bài học của học phần" icon="list" href="/danhsachbaihoc">
+  👉 Nhấn để chuyển đến trang quản lý **danh sách bài học** theo từng học phần
+</Card>
+
+
+<Card title="2. Thêm buổi học" icon="plus-circle">
+  - Nhấn nút **"Thêm buổi học"**  
+  - Nhập đầy đủ các thông tin: _Ngày, Tiết, Nội dung, Giảng viên_  
+  - Nhấn **"Lưu"** để lưu hoặc **"Hủy"** để bỏ thao tác
+</Card>
+
+<Card title="3. Cập nhật danh sách buổi học" icon="upload-cloud">
+  - Nhấn **"Dán dữ liệu"** nếu bạn đã sao chép từ file ngoài  
+  - Hoặc nhấn **"Tải lên"** để chọn file từ máy  
+  - Sau đó nhấn **"Xác nhận"** để import hoặc **"Đóng"** để hủy
+</Card>
+
+<Card title="4. Quản lý từng buổi học" icon="file-text">
+  Trong bảng danh sách buổi học, bạn có thể:
+
+  - **Xem chi tiết** nội dung  
+  - **Chỉnh sửa** thông tin từng buổi  
+  - **Xóa** buổi học nếu không còn sử dụng
+</Card>
+
 </CardGroup>
+
 
 ---
 
-### 4. Chỉnh sửa buổi học
+### 5. Chỉnh sửa buổi học
 
-Để chỉnh sửa một học phần, thực hiện theo các bước sau:
+Thực hiện chỉnh sửa buổi học theo các bước sau:
 
-1. Nhấn nút **Edit** bên cạnh học phần cần chỉnh sửa.
-2. **Điền đầy đủ tất cả thông tin** trong form chỉnh sửa, bao gồm các trường:
-   - Buổi học thứ
-   - Nội dung
-   - Chất lượng theo chuẩn đầu ra
-   - Cơ sở vật chất nâng cao
-   - Hình thức học tập (Thí nghiệm hoặc lý thuyết)
-   - Số tiết
-   - Số lượng học sinh tối thiểu
-   - Số lượng học sinh tối đa
-   - Mã môn học
-3. Nhấn **Lưu** để hoàn tất quá trình chỉnh sửa.
+1. Nhấn nút **Edit** bên cạnh buổi học cần chỉnh sửa.
+2. Hệ thống sẽ mở form chứa các trường thông tin cần chỉnh sửa.
+3. Điền đầy đủ thông tin theo yêu cầu.
+4. Nhấn **Lưu** để hoàn tất hoặc **Hủy** để thoát.
+
+---
+
+#### 📋 Các trường thông tin trong form chỉnh sửa
+
+| **Trường**                   | **Bắt buộc** | **Giải thích**                                                      |
+| ---------------------------- | ------------ | ------------------------------------------------------------------- |
+| Buổi học thứ                 | ✅            | Số thứ tự của buổi học trong học phần (VD: Buổi 1, Buổi 2,...)      |
+| Nội dung                     | ✅            | Mô tả nội dung giảng dạy của buổi học                               |
+| Chất lượng theo chuẩn đầu ra | ✅            | Ghi nhận mức độ hoặc tiêu chí đánh giá kết quả học tập của buổi học |
+| Cơ sở vật chất nâng cao      | ✅            | Trang thiết bị nâng cao hoặc đặc thù được sử dụng trong buổi học    |
+| Hình thức học tập            | ✅            | Chọn giữa **Lý thuyết** hoặc **Thí nghiệm**                         |
+| Số tiết                      | ✅            | Tổng số tiết giảng dạy trong buổi học                               |
+| Số lượng học sinh tối thiểu  | ✅            | Số lượng tối thiểu để tổ chức buổi học                              |
+| Số lượng học sinh tối đa     | ✅            | Số lượng tối đa đảm bảo chất lượng buổi học                         |
+| Mã môn học                   | ✅            | Mã định danh của học phần mà buổi học này thuộc về                  |
+
+---
+
+> 📌 _Chỉ khi các trường bắt buộc được nhập đầy đủ thì hệ thống mới cho phép lưu chỉnh sửa._
 
 ## 🎯 Mục tiêu sử dụng
 
