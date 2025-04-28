@@ -115,6 +115,14 @@
       ]
     },
     {
+      "group": "Quản lý lịch sử dụng phòng",
+      "pages": [
+        "list_LSDP",            
+        "danhsachdangky",               
+        "dangkysudungphong"
+      ]
+    },
+    {
       "group": "API Documentation",
       "pages": [
         "api-reference/introduction"
