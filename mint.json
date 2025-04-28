@@ -105,6 +105,16 @@
       ]
     },
     {
+      "group": "Quản lý biểu mẫu",
+      "pages": [
+        "list_QLBM",            
+        "quanlybieumau",               
+        "QL_nhombieumau",                 
+        "QL_bieumautacvu",                   
+        "QL_nguoidung"
+      ]
+    },
+    {
       "group": "API Documentation",
       "pages": [
         "api-reference/introduction"
