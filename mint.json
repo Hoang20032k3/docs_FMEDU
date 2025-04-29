@@ -122,6 +122,14 @@
         "dangkysudungphong"
       ]
     },
+     {
+      "group": "Quản lý lịch sử dụng xe",
+      "pages": [
+        "list_LSDXE",            
+        "danhsachdangkyxe",               
+        "dangkysudungxe"
+      ]
+    },
     {
       "group": "API Documentation",
       "pages": [

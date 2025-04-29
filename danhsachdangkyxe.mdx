@@ -30,7 +30,7 @@ Trang **Danh sách chờ duyệt** hiển thị tất cả các yêu cầu đăn
 - **Xóa lịch**:
   - Chọn lịch cần xóa → Bấm "Xóa" → Xác nhận lưu.
 
-📍 *Nếu gặp thông báo "Một số lịch bị thiếu dữ liệu bắt buộc", cần kiểm tra và bổ sung đầy đủ thông tin trước khi duyệt.*
+📍 _Nếu gặp thông báo "Một số lịch bị thiếu dữ liệu bắt buộc", cần kiểm tra và bổ sung đầy đủ thông tin trước khi duyệt._
 
 ---
 
@@ -50,6 +50,35 @@ Trang **Danh sách lịch sử dụng chính thức** hiển thị các lịch �
 
 ---
 
+## ⚡ Các trường hợp trùng lặp khiến lịch xe không được duyệt
+
+Trong quá trình duyệt, hệ thống sẽ kiểm tra và từ chối duyệt nếu xảy ra các trường hợp sau:
+
+### 1. Trùng người dùng trong cùng thời gian
+
+- Cùng **UserId** (người chở (tài xế) của trường).
+- Thời gian đăng ký **bị chồng chéo** (StartDate/EndDate).
+- Lịch đã được **phê duyệt** trước đó.
+
+### 2. Trùng xe trong cùng thời gian
+
+- Cùng **CarId** (xe sử dụng(xe của trường)).
+- Thời gian đăng ký **bị chồng chéo** (StartDate/EndDate).
+- Lịch đã được **phê duyệt** trước đó.
+
+---
+
+## ⏰ Điều kiện kiểm tra xung đột thời gian
+
+Khi duyệt lịch mới, hệ thống xác định xung đột nếu:
+
+- **Thời gian bắt đầu** của lịch mới `<` **Thời gian kết thúc** của lịch cũ.
+- **Thời gian kết thúc** của lịch mới `>` **Thời gian bắt đầu** của lịch cũ.
+
+Nếu điều kiện trên đúng, lịch đăng ký mới sẽ **bị xem là trùng lặp** và không thể duyệt.
+
+---
+
 ## 🎯 Lưu ý
 
 - Luôn kiểm tra kỹ thông tin lịch (xe, tài xế, thời gian) trước khi duyệt để đảm bảo chính xác.
@@ -57,4 +86,4 @@ Trang **Danh sách lịch sử dụng chính thức** hiển thị các lịch �
 
 ---
 
-📍 *Duyệt và quản lý lịch sử dụng xe kịp thời sẽ giúp đảm bảo phục vụ nhu cầu công tác, vận chuyển trong toàn hệ thống một cách tốt nhất.*
+📍 _Duyệt và quản lý lịch sử dụng xe kịp thời sẽ giúp đảm bảo phục vụ nhu cầu công tác, vận chuyển trong toàn hệ thống một cách tốt nhất._
