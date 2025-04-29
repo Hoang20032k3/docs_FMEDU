@@ -52,186 +52,96 @@
     {
       "group": "Get Started",
       "pages": [
-        {
-          "title": "Giới thiệu hệ thống",
-          "path": "introduction"
-        }
+        "introduction"
       ]
     },
     {
       "group": "Đăng nhập",
       "pages": [
-        {
-          "title": "Đăng nhập bằng Gmail",
-          "path": "DNgmail"
-        },
-        {
-          "title": "Đăng nhập khách",
-          "path": "guest-authentication"
-        }
+        "DNgmail",
+        "guest-authentication"
       ]
     },
     {
       "group": "Thông tin định mức",
       "pages": [
-        {
-          "title": "Tổng quan định mức theo chuyên ngành",
-          "path": "ttdm-chuyen-nganh"
-        },
-        {
-          "title": "Danh mục học phần",
-          "path": "danhmuchocphan"
-        },
-        {
-          "title": "Danh sách buổi học",
-          "path": "danhsachbuoihoc"
-        },
-        {
-          "title": "Danh sách bài học",
-          "path": "danhsachbaihoc"
-        },
-        {
-          "title": "Thông tin định mức học phần",
-          "path": "ttdm-hocphan"
-        },
-        {
-          "title": "Thông tin định mức tổng hợp",
-          "path": "TTDMTCN"
-        },
-        {
-          "title": "Danh mục tài sản",
-          "path": "danhmuctaisan"
-        }
+        "ttdm-chuyen-nganh",
+        "danhmuchocphan",
+        "danhsachbuoihoc",
+        "danhsachbaihoc",
+        "ttdm-hocphan",
+        "TTDMTCN",
+        "danhmuctaisan"
       ]
     },
     {
       "group": "Danh sách phòng",
       "pages": [
-        {
-          "title": "Danh sách phòng",
-          "path": "danhsachphong"
-        }
+        "danhsachphong"
       ]
     },
     {
       "group": "Lịch sử dụng",
       "pages": [
-        {
-          "title": "Lịch sử sử dụng phòng/xe",
-          "path": "lichsudung"
-        }
+        "lichsudung"
       ]
     },
     {
       "group": "Văn bản công khai",
       "pages": [
-        {
-          "title": "Văn bản công khai",
-          "path": "vanbancongkhai"
-        }
+        "vanbancongkhai"
       ]
     },
     {
       "group": "Công cụ tiện ích",
       "pages": [
-        {
-          "title": "Trang điểm danh",
-          "path": "trangdiemdanh"
-        }
+        "trangdiemdanh"
       ]
     },
     {
       "group": "Quản lý yêu cầu của tôi",
       "pages": [
-        {
-          "title": "Yêu cầu của tôi",
-          "path": "yeucaucuatoi"
-        }
+        "yeucaucuatoi"
       ]
     },
     {
       "group": "Quản lý biểu mẫu",
       "pages": [
-        {
-          "title": "Tổng quan quản lý biểu mẫu",
-          "path": "list_QLBM"
-        },
-        {
-          "title": "Quản lý biểu mẫu",
-          "path": "quanlybieumau"
-        },
-        {
-          "title": "Quản lý nhóm biểu mẫu",
-          "path": "QL_nhombieumau"
-        },
-        {
-          "title": "Quản lý mẫu tác vụ",
-          "path": "QL_bieumautacvu"
-        },
-        {
-          "title": "Quản lý người dùng",
-          "path": "QL_nguoidung"
-        }
+        "list_QLBM",
+        "quanlybieumau",
+        "QL_nhombieumau",
+        "QL_bieumautacvu",
+        "QL_nguoidung"
       ]
     },
     {
       "group": "Quản lý lịch sử dụng phòng",
       "pages": [
-        {
-          "title": "Tổng quan lịch sử dụng phòng",
-          "path": "list_LSDP"
-        },
-        {
-          "title": "Danh sách đăng ký",
-          "path": "danhsachdangky"
-        },
-        {
-          "title": "Đăng ký sử dụng phòng",
-          "path": "dangkysudungphong"
-        }
+        "list_LSDP",
+        "danhsachdangky",
+        "dangkysudungphong"
       ]
     },
     {
       "group": "Quản lý lịch sử dụng xe",
       "pages": [
-        {
-          "title": "Tổng quan lịch sử dụng xe",
-          "path": "list_LSDXE"
-        },
-        {
-          "title": "Danh sách đăng ký xe",
-          "path": "danhsachdangkyxe"
-        },
-        {
-          "title": "Đăng ký sử dụng xe",
-          "path": "dangkysudungxe"
-        }
+        "list_LSDXE",
+        "danhsachdangkyxe",
+        "dangkysudungxe"
       ]
     },
     {
       "group": "API Documentation",
       "pages": [
-        {
-          "title": "Giới thiệu API",
-          "path": "api-reference/introduction"
-        }
+        "api-reference/introduction"
       ]
     },
     {
       "group": "Endpoint Examples",
       "pages": [
-        {
-          "title": "GET",
-          "path": "api-reference/endpoint/get"
-        },
-        {
-          "title": "CREATE",
-          "path": "api-reference/endpoint/create"
-        },
-        {
-          "title": "DELETE",
-          "path": "api-reference/endpoint/delete"
-        }
+        "api-reference/endpoint/get",
+        "api-reference/endpoint/create",
+        "api-reference/endpoint/delete"
       ]
     }
   ],
