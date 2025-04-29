@@ -76,35 +76,31 @@
       "pages": [
         {
           "title": "Tổng quan định mức theo chuyên ngành",
-          "path": "ttdm-chuyen-nganh",
-          "nested": [
-            {
-              "title": "Danh mục học phần",
-              "path": "danhmuchocphan",
-              "nested": [
-                {
-                  "title": "Danh sách buổi học",
-                  "path": "danhsachbuoihoc"
-                },
-                {
-                  "title": "Danh sách bài học",
-                  "path": "danhsachbaihoc"
-                },
-                {
-                  "title": "Thông tin định mức học phần",
-                  "path": "ttdm-hocphan"
-                }
-              ]
-            },
-            {
-              "title": "Thông tin định mức tổng hợp",
-              "path": "TTDMTCN"
-            },
-            {
-              "title": "Danh mục tài sản",
-              "path": "danhmuctaisan"
-            }
-          ]
+          "path": "ttdm-chuyen-nganh"
+        },
+        {
+          "title": "Danh mục học phần",
+          "path": "danhmuchocphan"
+        },
+        {
+          "title": "Danh sách buổi học",
+          "path": "danhsachbuoihoc"
+        },
+        {
+          "title": "Danh sách bài học",
+          "path": "danhsachbaihoc"
+        },
+        {
+          "title": "Thông tin định mức học phần",
+          "path": "ttdm-hocphan"
+        },
+        {
+          "title": "Thông tin định mức tổng hợp",
+          "path": "TTDMTCN"
+        },
+        {
+          "title": "Danh mục tài sản",
+          "path": "danhmuctaisan"
         }
       ]
     },
@@ -158,25 +154,23 @@
       "pages": [
         {
           "title": "Tổng quan quản lý biểu mẫu",
-          "path": "list_QLBM",
-          "nested": [
-            {
-              "title": "Quản lý biểu mẫu",
-              "path": "quanlybieumau"
-            },
-            {
-              "title": "Quản lý nhóm biểu mẫu",
-              "path": "QL_nhombieumau"
-            },
-            {
-              "title": "Quản lý mẫu tác vụ",
-              "path": "QL_bieumautacvu"
-            },
-            {
-              "title": "Quản lý người dùng",
-              "path": "QL_nguoidung"
-            }
-          ]
+          "path": "list_QLBM"
+        },
+        {
+          "title": "Quản lý biểu mẫu",
+          "path": "quanlybieumau"
+        },
+        {
+          "title": "Quản lý nhóm biểu mẫu",
+          "path": "QL_nhombieumau"
+        },
+        {
+          "title": "Quản lý mẫu tác vụ",
+          "path": "QL_bieumautacvu"
+        },
+        {
+          "title": "Quản lý người dùng",
+          "path": "QL_nguoidung"
         }
       ]
     },
@@ -185,17 +179,15 @@
       "pages": [
         {
           "title": "Tổng quan lịch sử dụng phòng",
-          "path": "list_LSDP",
-          "nested": [
-            {
-              "title": "Danh sách đăng ký",
-              "path": "danhsachdangky"
-            },
-            {
-              "title": "Đăng ký sử dụng phòng",
-              "path": "dangkysudungphong"
-            }
-          ]
+          "path": "list_LSDP"
+        },
+        {
+          "title": "Danh sách đăng ký",
+          "path": "danhsachdangky"
+        },
+        {
+          "title": "Đăng ký sử dụng phòng",
+          "path": "dangkysudungphong"
         }
       ]
     },
@@ -204,17 +196,15 @@
       "pages": [
         {
           "title": "Tổng quan lịch sử dụng xe",
-          "path": "list_LSDXE",
-          "nested": [
-            {
-              "title": "Danh sách đăng ký xe",
-              "path": "danhsachdangkyxe"
-            },
-            {
-              "title": "Đăng ký sử dụng xe",
-              "path": "dangkysudungxe"
-            }
-          ]
+          "path": "list_LSDXE"
+        },
+        {
+          "title": "Danh sách đăng ký xe",
+          "path": "danhsachdangkyxe"
+        },
+        {
+          "title": "Đăng ký sử dụng xe",
+          "path": "dangkysudungxe"
         }
       ]
     },
