@@ -63,17 +63,42 @@
       ]
     },
     {
-      "group": "Thông tin định mức",
-      "pages": [
-        "ttdm-chuyen-nganh",            
-        "danhmuchocphan",               
-        "danhsachbuoihoc",                 
-        "danhsachbaihoc",                   
-        "ttdm-hocphan",
-        "TTDMTCN",
-        "danhsachtaisan"
+  "group": "Thông tin định mức",
+  "pages": [
+    {
+      "title": "Tổng quan định mức theo chuyên ngành",
+      "path": "ttdm-chuyen-nganh",
+      "nested": [
+        {
+          "title": "Danh mục học phần",
+          "path": "danhmuchocphan",
+          "nested": [
+            {
+              "title": "Danh sách buổi học",
+              "path": "danhsachbuoihoc"
+            },
+            {
+              "title": "Danh sách bài học",
+              "path": "danhsachbaihoc"
+            },
+            {
+              "title": "Thông tin định mức học phần",
+              "path": "ttdm-hocphan"
+            }
+          ]
+        },
+        {
+          "title": "Thông tin định mức tổng hợp",
+          "path": "TTDMTCN"
+        },
+        {
+          "title": "Danh mục tài sản",
+          "path": "danhmuctaisan"
+        }
       ]
-    },
+    }
+  ]
+},
     {
       "group": "Danh sách phòng",
       "pages": [
@@ -105,31 +130,71 @@
       ]
     },
     {
-      "group": "Quản lý biểu mẫu",
-      "pages": [
-        "list_QLBM",            
-        "quanlybieumau",               
-        "QL_nhombieumau",                 
-        "QL_bieumautacvu",                   
-        "QL_nguoidung"
-      ]
-    },
+  "group": "Quản lý biểu mẫu",
+  "pages": [
     {
-      "group": "Quản lý lịch sử dụng phòng",
-      "pages": [
-        "list_LSDP",            
-        "danhsachdangky",               
-        "dangkysudungphong"
+      "title": "Tổng quan quản lý biểu mẫu",
+      "path": "list_QLBM",
+      "nested": [
+        {
+          "title": "Quản lý biểu mẫu",
+          "path": "quanlybieumau"
+        },
+        {
+          "title": "Quản lý nhóm biểu mẫu",
+          "path": "QL_nhombieumau"
+        },
+        {
+          "title": "Quản lý mẫu tác vụ",
+          "path": "QL_bieumautacvu"
+        },
+        {
+          "title": "Quản lý người dùng",
+          "path": "QL_nguoidung"
+        }
       ]
-    },
-     {
-      "group": "Quản lý lịch sử dụng xe",
-      "pages": [
-        "list_LSDXE",            
-        "danhsachdangkyxe",               
-        "dangkysudungxe"
+    }
+  ]
+},
+{
+  "group": "Quản lý lịch sử dụng phòng",
+  "pages": [
+    {
+      "title": "Tổng quan lịch sử dụng phòng",
+      "path": "list_LSDP",
+      "nested": [
+        {
+          "title": "Danh sách đăng ký",
+          "path": "danhsachdangky"
+        },
+        {
+          "title": "Đăng ký sử dụng phòng",
+          "path": "dangkysudungphong"
+        }
       ]
-    },
+    }
+  ]
+},
+{
+  "group": "Quản lý lịch sử dụng xe",
+  "pages": [
+    {
+      "title": "Tổng quan lịch sử dụng xe",
+      "path": "list_LSDXE",
+      "nested": [
+        {
+          "title": "Danh sách đăng ký xe",
+          "path": "danhsachdangkyxe"
+        },
+        {
+          "title": "Đăng ký sử dụng xe",
+          "path": "dangkysudungxe"
+        }
+      ]
+    }
+  ]
+}
+,
     {
       "group": "API Documentation",
       "pages": [
