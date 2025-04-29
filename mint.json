@@ -52,14 +52,23 @@
     {
       "group": "Get Started",
       "pages": [
-        "introduction"
+        {
+          "title": "Giới thiệu hệ thống",
+          "path": "introduction"
+        }
       ]
     },
     {
       "group": "Đăng nhập",
       "pages": [
-        "DNgmail",
-        "guest-authentication"
+        {
+          "title": "Đăng nhập bằng Gmail",
+          "path": "DNgmail"
+        },
+        {
+          "title": "Đăng nhập khách",
+          "path": "guest-authentication"
+        }
       ]
     },
     {
@@ -102,31 +111,46 @@
     {
       "group": "Danh sách phòng",
       "pages": [
-        "danhsachphong"
+        {
+          "title": "Danh sách phòng",
+          "path": "danhsachphong"
+        }
       ]
     },
     {
       "group": "Lịch sử dụng",
       "pages": [
-        "lichsudung"
+        {
+          "title": "Lịch sử sử dụng phòng/xe",
+          "path": "lichsudung"
+        }
       ]
     },
     {
       "group": "Văn bản công khai",
       "pages": [
-        "vanbancongkhai"
+        {
+          "title": "Văn bản công khai",
+          "path": "vanbancongkhai"
+        }
       ]
     },
     {
       "group": "Công cụ tiện ích",
       "pages": [
-        "trangdiemdanh"
+        {
+          "title": "Trang điểm danh",
+          "path": "trangdiemdanh"
+        }
       ]
     },
     {
       "group": "Quản lý yêu cầu của tôi",
       "pages": [
-        "yeucaucuatoi"
+        {
+          "title": "Yêu cầu của tôi",
+          "path": "yeucaucuatoi"
+        }
       ]
     },
     {
@@ -197,15 +221,27 @@
     {
       "group": "API Documentation",
       "pages": [
-        "api-reference/introduction"
+        {
+          "title": "Giới thiệu API",
+          "path": "api-reference/introduction"
+        }
       ]
     },
     {
       "group": "Endpoint Examples",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        {
+          "title": "GET",
+          "path": "api-reference/endpoint/get"
+        },
+        {
+          "title": "CREATE",
+          "path": "api-reference/endpoint/create"
+        },
+        {
+          "title": "DELETE",
+          "path": "api-reference/endpoint/delete"
+        }
       ]
     }
   ],
