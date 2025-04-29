@@ -52,149 +52,148 @@
     {
       "group": "Get Started",
       "pages": [
-        "introduction"                
+        "introduction"
       ]
     },
     {
       "group": "Đăng nhập",
-      "pages": [               
-        "DNgmail",           
+      "pages": [
+        "DNgmail",
         "guest-authentication"
       ]
     },
     {
-  "group": "Thông tin định mức",
-  "pages": [
-    {
-      "title": "Tổng quan định mức theo chuyên ngành",
-      "path": "ttdm-chuyen-nganh",
-      "nested": [
+      "group": "Thông tin định mức",
+      "pages": [
         {
-          "title": "Danh mục học phần",
-          "path": "danhmuchocphan",
+          "title": "Tổng quan định mức theo chuyên ngành",
+          "path": "ttdm-chuyen-nganh",
           "nested": [
             {
-              "title": "Danh sách buổi học",
-              "path": "danhsachbuoihoc"
+              "title": "Danh mục học phần",
+              "path": "danhmuchocphan",
+              "nested": [
+                {
+                  "title": "Danh sách buổi học",
+                  "path": "danhsachbuoihoc"
+                },
+                {
+                  "title": "Danh sách bài học",
+                  "path": "danhsachbaihoc"
+                },
+                {
+                  "title": "Thông tin định mức học phần",
+                  "path": "ttdm-hocphan"
+                }
+              ]
             },
             {
-              "title": "Danh sách bài học",
-              "path": "danhsachbaihoc"
+              "title": "Thông tin định mức tổng hợp",
+              "path": "TTDMTCN"
             },
             {
-              "title": "Thông tin định mức học phần",
-              "path": "ttdm-hocphan"
+              "title": "Danh mục tài sản",
+              "path": "danhmuctaisan"
             }
           ]
-        },
-        {
-          "title": "Thông tin định mức tổng hợp",
-          "path": "TTDMTCN"
-        },
-        {
-          "title": "Danh mục tài sản",
-          "path": "danhmuctaisan"
         }
       ]
-    }
-  ]
-},
+    },
     {
       "group": "Danh sách phòng",
       "pages": [
-        "danhsachphong"                      
+        "danhsachphong"
       ]
     },
     {
       "group": "Lịch sử dụng",
       "pages": [
-        "lichsudung"                      
+        "lichsudung"
       ]
     },
     {
       "group": "Văn bản công khai",
       "pages": [
-        "vanbancongkhai"                      
+        "vanbancongkhai"
       ]
     },
     {
       "group": "Công cụ tiện ích",
       "pages": [
-        "trangdiemdanh"                      
+        "trangdiemdanh"
       ]
     },
     {
       "group": "Quản lý yêu cầu của tôi",
       "pages": [
-        "yeucaucuatoi"                      
+        "yeucaucuatoi"
       ]
     },
     {
-  "group": "Quản lý biểu mẫu",
-  "pages": [
-    {
-      "title": "Tổng quan quản lý biểu mẫu",
-      "path": "list_QLBM",
-      "nested": [
+      "group": "Quản lý biểu mẫu",
+      "pages": [
         {
-          "title": "Quản lý biểu mẫu",
-          "path": "quanlybieumau"
-        },
-        {
-          "title": "Quản lý nhóm biểu mẫu",
-          "path": "QL_nhombieumau"
-        },
-        {
-          "title": "Quản lý mẫu tác vụ",
-          "path": "QL_bieumautacvu"
-        },
-        {
-          "title": "Quản lý người dùng",
-          "path": "QL_nguoidung"
+          "title": "Tổng quan quản lý biểu mẫu",
+          "path": "list_QLBM",
+          "nested": [
+            {
+              "title": "Quản lý biểu mẫu",
+              "path": "quanlybieumau"
+            },
+            {
+              "title": "Quản lý nhóm biểu mẫu",
+              "path": "QL_nhombieumau"
+            },
+            {
+              "title": "Quản lý mẫu tác vụ",
+              "path": "QL_bieumautacvu"
+            },
+            {
+              "title": "Quản lý người dùng",
+              "path": "QL_nguoidung"
+            }
+          ]
         }
       ]
-    }
-  ]
-},
-{
-  "group": "Quản lý lịch sử dụng phòng",
-  "pages": [
+    },
     {
-      "title": "Tổng quan lịch sử dụng phòng",
-      "path": "list_LSDP",
-      "nested": [
+      "group": "Quản lý lịch sử dụng phòng",
+      "pages": [
         {
-          "title": "Danh sách đăng ký",
-          "path": "danhsachdangky"
-        },
-        {
-          "title": "Đăng ký sử dụng phòng",
-          "path": "dangkysudungphong"
+          "title": "Tổng quan lịch sử dụng phòng",
+          "path": "list_LSDP",
+          "nested": [
+            {
+              "title": "Danh sách đăng ký",
+              "path": "danhsachdangky"
+            },
+            {
+              "title": "Đăng ký sử dụng phòng",
+              "path": "dangkysudungphong"
+            }
+          ]
         }
       ]
-    }
-  ]
-},
-{
-  "group": "Quản lý lịch sử dụng xe",
-  "pages": [
+    },
     {
-      "title": "Tổng quan lịch sử dụng xe",
-      "path": "list_LSDXE",
-      "nested": [
+      "group": "Quản lý lịch sử dụng xe",
+      "pages": [
         {
-          "title": "Danh sách đăng ký xe",
-          "path": "danhsachdangkyxe"
-        },
-        {
-          "title": "Đăng ký sử dụng xe",
-          "path": "dangkysudungxe"
+          "title": "Tổng quan lịch sử dụng xe",
+          "path": "list_LSDXE",
+          "nested": [
+            {
+              "title": "Danh sách đăng ký xe",
+              "path": "danhsachdangkyxe"
+            },
+            {
+              "title": "Đăng ký sử dụng xe",
+              "path": "dangkysudungxe"
+            }
+          ]
         }
       ]
-    }
-  ]
-}
-,
+    },
     {
       "group": "API Documentation",
       "pages": [
