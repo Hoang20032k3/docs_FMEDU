@@ -59,7 +59,7 @@
       "group": "Đăng nhập",
       "pages": [
         "DNgmail",
-        "guest-authentication"
+        "DN_GG"
       ]
     },
     {
@@ -67,12 +67,12 @@
       "pages": [
         "ttdm-chuyen-nganh",
         "TrangDMhocphanmoi",
-        "danhsachbuoihoc",
-        "danhsachbaihoc",
+        "Chitietbaihoccuahocphan",
         "ttdm-hocphan",
         "TTDMTCN",
         "danhmuctaisan",
-        "Chitietbaihoccuahocphan"
+        "TTDM_vanphongpham",
+        "Chitiet_vanphongphamkhoa"
       ]
     },
     {

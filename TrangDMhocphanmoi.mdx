@@ -14,7 +14,17 @@ Trang này hỗ trợ thao tác quản lý học phần trong hệ thống, bao 
 <CardGroup cols="2">
 
 <Card
-  title="1. Lọc theo khoa, chuyên ngành, năm học"
+  title="1. Danh sách buổi học"
+  icon="calendar"
+  href="/Chitietbaihoccuahocphan"
+>
+  Xem các buổi học tương ứng với từng học phần.
+<br />
+  <b>👉 Bấm vào đây để xem chi tiết.</b>
+</Card>
+
+<Card
+  title="2. Lọc theo khoa, chuyên ngành, năm học"
   icon="filter"
   href="/danhmuchocphan/loc"
 >
@@ -22,7 +32,7 @@ Trang này hỗ trợ thao tác quản lý học phần trong hệ thống, bao 
 </Card>
 
 <Card
-  title="2. Xuất dữ liệu học phần"
+  title="3. Xuất dữ liệu học phần"
   icon="file-down"
   href="/danhmuchocphan/xuat"
 >
@@ -40,13 +50,11 @@ Trang này hỗ trợ thao tác quản lý học phần trong hệ thống, bao 
 </Card>
 
 <Card
-  title="4. Thêm học phần"
-  icon="plus-circle"
+  title="4.1 Thêm học phần mới cho chuyên ngành"
+  icon="plus-square"
   href="/danhmuchocphan/them"
 >
-  Tạo học phần mới gồm các bước:
-  <br />1️⃣ Nhấn nút <b>“Thêm học phần”</b>
-  <br />2️⃣ Nhập thông tin bắt buộc:
+  Tạo học phần mới bằng cách điền thủ công các thông tin sau:
   <ul style={{ paddingLeft: "1rem", marginTop: "0.25rem" }}>
     <li>Tên học phần *</li>
     <li>Mã học phần *</li>
@@ -58,8 +66,63 @@ Trang này hỗ trợ thao tác quản lý học phần trong hệ thống, bao 
     <li>Ngày bắt đầu *</li>
     <li>Ngày kết thúc *</li>
   </ul>
-  3️⃣ Nhấn <b>“Lưu”</b> để hoàn tất hoặc <b>“Hủy”</b> để thoát.
+  Sau đó nhấn <b>“Lưu”</b> để hoàn tất hoặc <b>“Hủy”</b> để thoát.  
+  Hệ thống sẽ hiển thị thông báo thành công hoặc lỗi (nếu có). 
 </Card>
+
+<Card
+  title="4.2 Thêm học phần có sẵn vào chuyên ngành"
+  icon="list-plus"
+  href="/danhmuchocphan/them-tusanh"
+>
+  Thêm các học phần đã tồn tại vào chuyên ngành:
+  <ul style={{ paddingLeft: "1rem", marginTop: "0.25rem" }}>
+    <li>Chọn khoa</li>
+    <li>Chọn chuyên ngành cần thêm học phần</li>
+    <li>Bấm “Thêm học phần vào chuyên ngành”</li>
+    <li>Chọn từ danh sách các học phần có sẵn</li>
+    <li>Nhấn <b>“Lưu”</b> để hoàn tất</li>
+  </ul>
+  Hệ thống sẽ hiển thị thông báo thành công hoặc lỗi (nếu có).  
+</Card>
+
+
+<Card
+  title="5. Chỉnh sửa học phần"
+  icon="pencil"
+>
+  Để chỉnh sửa thông tin học phần, thực hiện các bước sau:
+  <br />1️⃣ Nhấn vào biểu tượng <b>cây bút ✏️</b> trên dòng học phần cần chỉnh
+  <br />2️⃣ Điều chỉnh các thông tin:
+  <ul style={{ paddingLeft: "1rem", marginTop: "0.25rem" }}>
+    <li>Tên học phần</li>
+    <li>Mã học phần</li>
+    <li>Số tiết</li>
+    <li>Ngày bắt đầu và kết thúc</li>
+    <li>Khoa hoặc chuyên ngành</li>
+  </ul>
+  3️⃣ Nhấn <b>“Lưu”</b> để hoàn thành hoặc <b>“Hủy”</b> để bỏ qua<br/>
+  4️⃣ Hệ thống sẽ hiển thị thông báo thành công hoặc lỗi (nếu có).
+</Card>
+
+<Card
+  title="6. Xóa học phần"
+  icon="trash"
+  href="/danhmuchocphan/xoa"
+>
+  Chức năng chỉ áp dụng cho <b>học phần phụ</b> được thêm từ chuyên ngành khác.
+  <br /><br />
+  Các bước thực hiện:
+  <ul style={{ paddingLeft: "1rem" }}>
+    <li>Chọn khoa đã thêm học phần phụ</li>
+    <li>Chọn chuyên ngành tương ứng</li>
+    <li>Chọn năm học chứa học phần phụ</li>
+    <li>Tìm kiếm và chọn học phần cần xóa</li>
+    <li>Nhấn nút <b>“Xóa”</b> để thực hiện</li>
+  </ul>
+  Hệ thống sẽ hiển thị thông báo thành công hoặc lỗi nếu có.
+</Card>
+
 
 </CardGroup>
 
